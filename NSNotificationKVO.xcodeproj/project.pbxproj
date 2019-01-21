@@ -15,6 +15,10 @@
 		C802177421F56DA3007C69F4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C802177321F56DA3007C69F4 /* main.m */; };
 		C802177E21F56DA3007C69F4 /* NSNotificationKVOTests.m in Sources */ = {isa = PBXBuildFile; fileRef = C802177D21F56DA3007C69F4 /* NSNotificationKVOTests.m */; };
 		C802178921F56DA3007C69F4 /* NSNotificationKVOUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C802178821F56DA3007C69F4 /* NSNotificationKVOUITests.m */; };
+		C802179821F57120007C69F4 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C802179721F57120007C69F4 /* SecondViewController.m */; };
+		C87E366E21F57E6500A854F6 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C87E366D21F57E6500A854F6 /* ThirdViewController.m */; };
+		C87E367121F5962100A854F6 /* FourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C87E367021F5962100A854F6 /* FourthViewController.m */; };
+		C87E367421F598AC00A854F6 /* CustomView.m in Sources */ = {isa = PBXBuildFile; fileRef = C87E367321F598AC00A854F6 /* CustomView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,14 @@
 		C802178421F56DA3007C69F4 /* NSNotificationKVOUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NSNotificationKVOUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C802178821F56DA3007C69F4 /* NSNotificationKVOUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSNotificationKVOUITests.m; sourceTree = "<group>"; };
 		C802178A21F56DA3007C69F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C802179621F57120007C69F4 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		C802179721F57120007C69F4 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		C87E366C21F57E6500A854F6 /* ThirdViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		C87E366D21F57E6500A854F6 /* ThirdViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		C87E366F21F5962100A854F6 /* FourthViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FourthViewController.h; sourceTree = "<group>"; };
+		C87E367021F5962100A854F6 /* FourthViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FourthViewController.m; sourceTree = "<group>"; };
+		C87E367221F598AC00A854F6 /* CustomView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomView.h; sourceTree = "<group>"; };
+		C87E367321F598AC00A854F6 /* CustomView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +117,14 @@
 				C802176521F56DA1007C69F4 /* AppDelegate.m */,
 				C802176721F56DA1007C69F4 /* ViewController.h */,
 				C802176821F56DA1007C69F4 /* ViewController.m */,
+				C802179621F57120007C69F4 /* SecondViewController.h */,
+				C802179721F57120007C69F4 /* SecondViewController.m */,
+				C87E366C21F57E6500A854F6 /* ThirdViewController.h */,
+				C87E366D21F57E6500A854F6 /* ThirdViewController.m */,
+				C87E366F21F5962100A854F6 /* FourthViewController.h */,
+				C87E367021F5962100A854F6 /* FourthViewController.m */,
+				C87E367221F598AC00A854F6 /* CustomView.h */,
+				C87E367321F598AC00A854F6 /* CustomView.m */,
 				C802176A21F56DA1007C69F4 /* Main.storyboard */,
 				C802176D21F56DA3007C69F4 /* Assets.xcassets */,
 				C802176F21F56DA3007C69F4 /* LaunchScreen.storyboard */,
@@ -262,7 +282,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C87E367121F5962100A854F6 /* FourthViewController.m in Sources */,
+				C802179821F57120007C69F4 /* SecondViewController.m in Sources */,
+				C87E366E21F57E6500A854F6 /* ThirdViewController.m in Sources */,
 				C802176921F56DA1007C69F4 /* ViewController.m in Sources */,
+				C87E367421F598AC00A854F6 /* CustomView.m in Sources */,
 				C802177421F56DA3007C69F4 /* main.m in Sources */,
 				C802176621F56DA1007C69F4 /* AppDelegate.m in Sources */,
 			);
